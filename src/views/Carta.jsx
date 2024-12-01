@@ -16,6 +16,7 @@ import jugoNaranja from '../assets/jugoNaranja.png'
 import { FaGrinStars } from "react-icons/fa";
 import imgPromo1 from '../assets/promo1.png'
 import { MdTouchApp } from "react-icons/md";
+import imgSubmarino from '../assets/submarino.png'
 const Carta = () => {
     return (
         <div className="bg-white flex-1">
@@ -73,7 +74,7 @@ const Carta = () => {
                 icono={<PiBowlFoodFill />}
             >
 
-                <SubSeccion tituloSubSeccion={'Clásicos de Las Grutas'}>
+                <SubSeccion tituloSubSeccion={"Clásicos de K'scaritas"}>
                     <CardProductoDoc
                         tieneRelleno={true}
                         uniPrice={'1.000,00'}
@@ -127,6 +128,17 @@ const Carta = () => {
                     >
                         <p className="text-sm mr-1">Chico: <span className="font-bold">$ 1.000,00</span></p>
                         <p className="text-sm mr-1">Grande: <span className="font-bold">$ 1.500,00</span></p>
+                    </CardProductoUn>
+
+                    <CardProductoUn
+                        price={'1.000,00'}
+                        tipoVenta={'as'}
+                        imagen={imgSubmarino}
+                        descripcion={'Leche caliente con una barra de chocolate para fundir.'}
+                        titulo={'Submarino'}
+                    >
+                        
+                        <p className="text-sm mr-1">Vaso 400cc: <span className="font-bold">$ 1.500,00</span></p>
                     </CardProductoUn>
 
                     <CardProductoUn

@@ -1,12 +1,11 @@
-const SubSeccion = ({ children, tituloSubSeccion, icono }) => {
+const SubSeccion = ({ children, tituloSubSeccion, }) => {
     return (
         <div className="p-1 mb-5">
-            <div className="items-center flex border-b-[2px] border-accent mb-1">
-                <p className="text-2xl mr-1 text-accent">
+            <div className="items-center flex border-b-[4px]  border-accent mb-1">
+                <div className="bg-accent px-3 ml-2 rounded-t-xl">
+                    <p className="font-bold text-white  text-xl ">{tituloSubSeccion}</p>
+                </div>
 
-                    {icono}
-                </p>
-                <p className="font-bold text-accent  text-xl ml-1">{tituloSubSeccion}</p>
             </div>
             {children}
         </div>
