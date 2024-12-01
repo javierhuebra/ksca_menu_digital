@@ -1,8 +1,5 @@
-const CardProductoDoc = ({
-    tieneRelleno,
-    uniPrice,
-    docPrice,
-    medPrice,
+const CardProductoUn = ({
+    children,
     imagen,
     descripcion,
     titulo }) => {
@@ -27,22 +24,15 @@ const CardProductoDoc = ({
                 </div>
             </div>
 
-            <div className="flex  items-center justify-end  mt-1">
-                {/* <div>
-                    {
-                        tieneRelleno ? <p className=" font-bold text-white bg-accent px-2">¡Simples o Rellenos!</p> : <p className=" font-bold text-white bg-accent px-2">¡Simples!</p>
-                    }
 
-                </div> */}
-                <div className="bg-accent text-right pl-1 text-white w-full">
-                    <p className="text-sm mr-1">Unidad: <span className="font-bold">$ {uniPrice}</span></p>
-                    <p className="text-sm mr-1">1/2 Docena: <span className="font-bold">$ {medPrice}</span></p>
-                    <p className="text-sm mr-1">1 Docena: <span className="font-bold">$ {docPrice}</span></p>
-                </div>
+
+            <div className="bg-accent text-right pl-1 text-white mt-1">
+                {children}
 
             </div>
+
         </div>
     );
 }
 
-export default CardProductoDoc;
+export default CardProductoUn;

@@ -12,7 +12,7 @@ function App() {
         <div className="bg-accent py-6">
           <p className="text-4xl text-center font-marker text-white">Menú Digital</p>
         </div>
-        <BrowserRouter>
+        <BrowserRouter basename="/ksca_menu_digital">
           <Routes>
             <Route path="*" element={<Inicio />} />
             <Route path="/" element={<Inicio />} />
