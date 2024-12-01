@@ -3,7 +3,7 @@ import Seccion from "../components/Seccion";
 import SubSeccion from "../components/SubSeccion";
 import { FaUmbrellaBeach } from "react-icons/fa6";
 import imgChurros from '../assets/churros.png'
-import imgDonas from '../assets/donas.png'
+import imgDonas from '../assets/donas2.png'
 import imgToprtaFritas from '../assets/tortafritas.png'
 import imgRaspaditas from '../assets/raspaditas.png'
 import CardRelleno from "../components/CardRelleno";
@@ -17,6 +17,8 @@ import { FaGrinStars } from "react-icons/fa";
 import imgPromo1 from '../assets/promo1.png'
 import { MdTouchApp } from "react-icons/md";
 import imgSubmarino from '../assets/submarino.png'
+import imgPromo2 from '../assets/promo2.png'
+import imgChocolatada from '../assets/chocolatada.png'
 const Carta = () => {
     return (
         <div className="bg-white flex-1">
@@ -63,11 +65,21 @@ const Carta = () => {
                     price={'1.000,00'}
                     tipoVenta={'as'}
                     imagen={imgPromo1}
-                    descripcion={'Café + 3 churros.'}
+                    descripcion={'Café + 2 churros.'}
                     titulo={'Café con Churros'}
                 >
-                    <p className="text-sm mr-1">Café con Leche: <span className="font-bold">$ 5.000,00</span></p>
-                    <p className="text-sm mr-1">Café Solo: <span className="font-bold">$ 4.000,00</span></p>
+                    <p className="text-sm mr-1">Promo Café con Leche: <span className="font-bold">$ 5.000,00</span></p>
+                    <p className="text-sm mr-1">Promo Café Solo: <span className="font-bold">$ 4.000,00</span></p>
+                </CardProductoUn>
+                <CardProductoUn
+                    price={'1.000,00'}
+                    tipoVenta={'as'}
+                    imagen={imgPromo2}
+                    descripcion={'Submarino + 2 churros.'}
+                    titulo={'Submarino con Churros'}
+                >
+                    <p className="text-sm mr-1">Promo: <span className="font-bold">$ 7.000,00</span></p>
+                    
                 </CardProductoUn>
             </Seccion>
             <Seccion tituloSeccion={'Comestibles'}
@@ -90,7 +102,7 @@ const Carta = () => {
                         medPrice={'6.000,00'}
                         docPrice={'12.000,00'}
                         imagen={imgDonas}
-                        descripcion={'Donas clásicas de playa con variedades de relleno, rebosadas en azúcar.'}
+                        descripcion={'Donas clásicas de playa con variedades de relleno.'}
                         titulo={'Donas'}
                     />
                     <CardProductoDoc
@@ -160,6 +172,16 @@ const Carta = () => {
                         imagen={jugoNaranja}
                         descripcion={'Jugo exprimido de naranja.'}
                         titulo={'Exprimido de Naranja'}
+                    >
+
+                        <p className="text-sm mr-1">Vaso 500cc: <span className="font-bold">$ 1.500,00</span></p>
+                    </CardProductoUn>
+                    <CardProductoUn
+                        price={'1.000,00'}
+                        tipoVenta={'as'}
+                        imagen={imgChocolatada}
+                        descripcion={'Leche fria con chocolate.'}
+                        titulo={'Chocolatada'}
                     >
 
                         <p className="text-sm mr-1">Vaso 500cc: <span className="font-bold">$ 1.500,00</span></p>
