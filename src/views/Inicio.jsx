@@ -12,7 +12,7 @@ const Inicio = () => {
             </div>
             <div className='mx-2 flex flex-col  flex-1 '>
                 <p className=' text-accent text-xl text-center font-bold'>
-                    ¡Bienvenidos y gracias por su visita a K'scaritas, el hogar de los panificados de playa más ricos y originales!
+                    ¡Bienvenidos a K'scaritas, el hogar de los panificados de playa más ricos y originales!
                 </p>
                 <br />
                 <p className=' text-xl text-accent text-center fontbo'>
@@ -20,8 +20,7 @@ const Inicio = () => {
                 </p>
                 <br />
                 <p className=' text-xl text-accent text-center'>
-                    En caso de necesitar mas información puede visitar
-                    <a href="https://kscaritas.com/" target='_blank' className='text-primary underline underline-offset-2'> nuestra web</a>.
+                    En caso de necesitar mas información puede visitar <a href="https://kscaritas.com/" target='_blank' className='text-primary underline underline-offset-2'>nuestra web</a>.
                 </p>
                 <div className=' flex-1 flex  flex-col'>
 
