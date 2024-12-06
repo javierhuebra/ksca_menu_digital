@@ -1,3 +1,5 @@
+
+
 const CardProductoDoc = ({
     tieneRelleno,
     uniPrice,
@@ -6,6 +8,7 @@ const CardProductoDoc = ({
     imagen,
     descripcion,
     titulo }) => {
+       
     return (
         <div className="border-[3px] border-accent bg-primary  rounded-lg flex flex-col p-1 mb-1">
             <div className="flex h-32">
