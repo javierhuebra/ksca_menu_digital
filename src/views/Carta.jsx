@@ -153,7 +153,7 @@ const Carta = () => {
             <Seccion tituloSeccion={'Cafetería'}
                 icono={<PiCoffeeFill />}
             >
-                <SubSeccion tituloSubSeccion={'Fríos'}>
+                <SubSeccion tituloSubSeccion={'Calientes'}>
                     <CardProductoUn
 
                         imagen={imgCafe}
