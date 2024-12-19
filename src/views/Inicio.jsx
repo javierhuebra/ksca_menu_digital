@@ -41,7 +41,7 @@ const Inicio = ({ lang }) => {
                             </p>
                             <br />
                             <p className=' text-xl text-accent text-center'>
-                            If you need more information, you can visit <a href="https://kscaritas.com/" target='_blank' className='text-primary underline underline-offset-2'>our website</a>.                            </p>
+                                If you need more information, you can visit <a href="https://kscaritas.com/" target='_blank' className='text-primary underline underline-offset-2'>our website</a>.                            </p>
                         </>
                 }
 
@@ -54,9 +54,14 @@ const Inicio = ({ lang }) => {
                             <p className='mr-1'>Dejar una Reseña </p><FaGooglePlusSquare className='text-2xl' />
                         </Link>
                         <div className='flex'>
+                            <Link to='https://www.instagram.com/kscaritas/' target='_blank' className='mr-2'>
+                                <FaInstagram className='text-4xl text-accent mr-1' />
+                            </Link>
 
-                            <FaInstagram className='text-4xl text-accent mr-1' />
-                            <AiOutlineFacebook className='text-4xl text-accent' />
+                            <Link to='https://www.facebook.com/kscaritas/' target='_blank' className='mr-2'>
+                                <AiOutlineFacebook className='text-4xl text-accent' />
+                            </Link>
+
                         </div>
                     </div>
                 </div>
