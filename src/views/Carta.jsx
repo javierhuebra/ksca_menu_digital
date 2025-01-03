@@ -73,7 +73,7 @@ const Carta = () => {
 
                     tipoVenta={'as'}
                     imagen={imgPromo1}
-                    descripcion={'Café/Café con leche + 2 comestibles.'}
+                    descripcion={'Café/Café con leche + 2 unidades.'}
                     titulo={'Promo 1'}
                 >
                     <p className="text-sm mr-1"><span className="font-bold">$ 4.500,00</span></p>
@@ -82,14 +82,14 @@ const Carta = () => {
 
                     tipoVenta={'as'}
                     imagen={imgPromo2}
-                    descripcion={'Submarino/Cappuccino + 2 ccomestibles.'}
+                    descripcion={'Submarino/Cappuccino + 2 unidades.'}
                     titulo={'Promo 2'}
                 >
                     <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
 
                 </CardProductoUn>
             </Seccion>
-            <Seccion tituloSeccion={'Comestibles'}
+            <Seccion tituloSeccion={'Especialidades'}
                 icono={<PiBowlFoodFill />}
             >
 
