@@ -96,18 +96,18 @@ const Carta = () => {
                 <SubSeccion tituloSubSeccion={"Clásicos de K'scaritas"}>
                     <CardProductoDoc
                         tieneRelleno={true}
-                        uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        uniPrice={'1.500,00'}
+                        medPrice={'6.000,00'}
+                        docPrice={'12.000,00'}
                         imagen={imgChurros}
                         descripcion={'Churros clásicos de playa con variedades de relleno.'}
                         titulo={'Churros'}
                     />
                     <CardProductoDoc
                         tieneRelleno={true}
-                        uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        uniPrice={'1.500,00'}
+                        medPrice={'6.000,00'}
+                        docPrice={'12.000,00'}
                         imagen={imgDonasSimples}
                         descripcion={'Donas clásicas de playa.'}
                         titulo={'Donas Simples'}
@@ -123,27 +123,27 @@ const Carta = () => {
                     />
                     <CardProductoDoc
                         tieneRelleno={true}
-                        uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        uniPrice={'1.500,00'}
+                        medPrice={'6.000,00'}
+                        docPrice={'12.000,00'}
                         imagen={imgToprtaFritas}
                         descripcion={'Tortas fritas clásicas de playa con variedades de relleno.'}
                         titulo={'Tortas Fritas'}
                     />
                     <CardProductoDoc
                         tieneRelleno={false}
-                        uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        uniPrice={'1.000,00'}
+                        medPrice={'6.000,00'}
+                        docPrice={'12.000,00'}
                         imagen={imgRaspaditas}
                         descripcion={'Tortas clásicas de la zona cuyana argentina.'}
                         titulo={'Tortitas Raspaditas'}
                     />
                     <CardProductoDoc
                         tieneRelleno={false}
-                        uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        uniPrice={'1.500,00'}
+                        medPrice={'6.000,00'}
+                        docPrice={'12.000,00'}
                         imagen={imgMedialuna}
                         descripcion={'Medialunas de manteca, dulces.'}
                         titulo={'Medialunas'}
