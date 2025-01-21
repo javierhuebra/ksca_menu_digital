@@ -160,9 +160,9 @@ const Carta = () => {
                         descripcion={'Café - Cortado - Lágrima.'}
                         titulo={'Café'}
                     >
-                        <p className="text-sm mr-1">Chico: <span className="font-bold">$ 2.000,00</span></p>
-                        <p className="text-sm mr-1">Mediano: <span className="font-bold">$ 2.500,00</span></p>
-                        <p className="text-sm mr-1">Grande: <span className="font-bold">$ 3.000,00</span></p>
+                        <p className="text-sm mr-1">Chico: <span className="font-bold">$ 2.500,00</span></p>
+                        <p className="text-sm mr-1">Mediano: <span className="font-bold">$ 3.000,00</span></p>
+                        <p className="text-sm mr-1">Grande: <span className="font-bold">$ 3.500,00</span></p>
                     </CardProductoUn>
 
                     <CardProductoUn
@@ -171,9 +171,9 @@ const Carta = () => {
                         descripcion={'Café con leche clásico.'}
                         titulo={'Café con Leche'}
                     >
-                        <p className="text-sm mr-1">Chico: <span className="font-bold">$ 2.000,00</span></p>
-                        <p className="text-sm mr-1">Mediano: <span className="font-bold">$ 2.500,00</span></p>
-                        <p className="text-sm mr-1">Grande: <span className="font-bold">$ 3.000,00</span></p>
+                        <p className="text-sm mr-1">Chico: <span className="font-bold">$ 2.500,00</span></p>
+                        <p className="text-sm mr-1">Mediano: <span className="font-bold">$ 3.000,00</span></p>
+                        <p className="text-sm mr-1">Grande: <span className="font-bold">$ 3.500,00</span></p>
                     </CardProductoUn>
                     <CardProductoUn
 
@@ -235,7 +235,7 @@ const Carta = () => {
                         descripcion={'Jugo exprimido de naranja.'}
                         titulo={'Exprimido de Naranja'}
                     >
-                        <p className="text-sm mr-1"><span className="font-bold">$ 3.000,00</span></p>
+                        <p className="text-sm mr-1"><span className="font-bold">$ 5.000,00</span></p>
                     </CardProductoUn>
                     <CardProductoUn
                         price={'1.000,00'}
