@@ -1,11 +1,24 @@
+import { useState } from 'react';
 import logo from '../assets/logo.png';
+import publiBurger from '../assets/publiburger.png';
 import { Link } from 'react-router';
 import { FaGooglePlusSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
 import { AiOutlineFacebook } from "react-icons/ai";
 const Inicio = ({ lang }) => {
+    const [openPubli, setOpenPubli] = useState(true);
     return (
         <div className="flex-1 flex flex-col bg-white">
+            {
+                openPubli &&
+                <div className="bg-black bg-opacity-[0.5] absolute w-full top-0 bottom-0 z-50 flex flex-col justify-center items-center p-3">
+                    <div className='relative'>
+                        <button onClick={() => setOpenPubli(false)} className='absolute top-1 shadow-sm shadow-black right-1 bg-primary text-accent px-4 py-2 rounded-lg font-bold'>Cerrar</button>
+                        <img src={publiBurger} alt="" />
+                    </div>
+                </div>
+            }
+
 
             <div className='justify-center items-center flex'>
                 <img src={logo} alt="" className='h-[130px] drop-shadow-lg' />
