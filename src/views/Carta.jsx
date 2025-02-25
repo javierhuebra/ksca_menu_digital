@@ -144,7 +144,7 @@ const Carta = () => {
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
                         medPrice={'7.000,00'}
-                        docPrice={'12.000,00'}
+                        docPrice={'14.000,00'}
                         imagen={imgMedialuna}
                         descripcion={'Medialunas de manteca, dulces.'}
                         titulo={'Medialunas'}
@@ -153,7 +153,7 @@ const Carta = () => {
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
                         medPrice={'7.000,00'}
-                        docPrice={'12.000,00'}
+                        docPrice={'14.000,00'}
                         imagen={imgBollitos}
                         descripcion={'Bollitos de manteca, rellenos de ddl con azucar impalpable.'}
                         titulo={'Bombitas con dulce de leche.'}
