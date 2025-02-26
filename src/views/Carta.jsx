@@ -27,7 +27,7 @@ import imgExprimidos from '../assets/exprimidos.png'
 import imgLicuados from '../assets/licuados.png'
 import imgEnsaladaFrutas from '../assets/frutas.png'
 import imgInfusiones from '../assets/infusion.png'
-import imgBollitos from '../assets/bollitos.jpg'
+import imgBollitos from '../assets/bollitos.png'
 const Carta = () => {
     return (
         <div className="bg-white flex-1">
