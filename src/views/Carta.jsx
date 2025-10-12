@@ -48,7 +48,7 @@ const Carta = () => {
                 />
                 <CardRelleno
                     titulo={'Dulce de Membrillo'}
-                    descripcion={'Dulce de Membrillo de la chacra.'}
+                    descripcion={'Dulce de membrillo de la chacra.'}
                 />
                 <CardRelleno
                     titulo={'Marroc'}
@@ -155,7 +155,7 @@ const Carta = () => {
                         medPrice={'7.000,00'}
                         docPrice={'14.000,00'}
                         imagen={imgBollitos}
-                        descripcion={'Bollitos de manteca, rellenos de ddl con azucar impalpable.'}
+                        descripcion={'Bollitos de manteca, rellenos de dulce de leche con azúcar impalpable.'}
                         titulo={'Bombitas con dulce de leche.'}
                     />
                 </SubSeccion>
@@ -209,7 +209,7 @@ const Carta = () => {
 
                         imagen={imgCappuccino}
                         descripcion={'Leche caliente con café y chocolate.'}
-                        titulo={'Cappucciono'}
+                        titulo={'Cappuccino'}
                     >
 
                         <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
