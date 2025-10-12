@@ -1,6 +1,6 @@
 import { useState } from 'react';
 import logo from '../assets/logo.png';
-import publiBurger from '../assets/publiburger.png';
+import publiBurger from '../assets/burgers.png';
 import { Link } from 'react-router';
 import { FaGooglePlusSquare } from "react-icons/fa";
 import { FaInstagram } from "react-icons/fa";
@@ -87,8 +87,8 @@ const Inicio = ({ lang }) => {
 
                     {/* contenido visible arriba del overlay */}
                     <div className="relative z-10 p-4 text-white">
-                        <h1 className='text-2xl font-bold uppercase'>Ampliamos la carta</h1>
-                        <p className='font-bold text-lg'>Acercate a nuestra sucursal de <span className='text-[#f9a429] uppercase'>calle Bariloche 770</span> y disfrutá el nuevo<br /> menú de comidas rápidas.</p>
+                        <h1 className='text-4xl font-bold  font-marker mb-3'>Ampliamos la carta</h1>
+                        <p className='font-bold text-lg fontmar'>Acercate a nuestra sucursal de <span className='text-[#f9a429] uppercase'>calle Bariloche 770</span> y disfrutá el nuevo menú de comidas rápidas.</p>
                     </div>
                 </div>
             </div>
