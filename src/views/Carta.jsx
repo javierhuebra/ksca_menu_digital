@@ -28,6 +28,7 @@ import imgLicuados from '../assets/licuados.png'
 import imgEnsaladaFrutas from '../assets/frutas.png'
 import imgInfusiones from '../assets/infusion.png'
 import imgBollitos from '../assets/bollitos.png'
+import imgMocaccino from '../assets/mocaccino.png'
 const Carta = () => {
     return (
         <div className="bg-white flex-1">
@@ -37,6 +38,10 @@ const Carta = () => {
                 <CardRelleno
                     titulo={'Dulce de Leche'}
                     descripcion={'Dulce de leche clásico.'}
+                />
+                <CardRelleno
+                    titulo={'Crema Pastelera'}
+                    descripcion={'Crema pastelera clásica.'}
                 />
                 <CardRelleno
                     titulo={'Dulce de Frambuesa'}
@@ -77,7 +82,7 @@ const Carta = () => {
                     descripcion={'Café/Café con leche + 2 unidades.'}
                     titulo={'Promo 1'}
                 >
-                    <p className="text-sm mr-1"><span className="font-bold">$ 5.500,00</span></p>
+                    <p className="text-sm mr-1"><span className="font-bold">$ 6.500,00</span></p>
                 </CardProductoUn>
                 <CardProductoUn
 
@@ -86,7 +91,7 @@ const Carta = () => {
                     descripcion={'Submarino/Cappuccino + 2 unidades.'}
                     titulo={'Promo 2'}
                 >
-                    <p className="text-sm mr-1"><span className="font-bold">$ 7.000,00</span></p>
+                    <p className="text-sm mr-1"><span className="font-bold">$ 8.000,00</span></p>
 
                 </CardProductoUn>
             </Seccion>
@@ -98,8 +103,8 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={true}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgChurros}
                         descripcion={'Churros clásicos de playa con variedades de relleno.'}
                         titulo={'Churros'}
@@ -107,8 +112,8 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={true}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgDonasSimples}
                         descripcion={'Donas clásicas de playa.'}
                         titulo={'Donas Simples'}
@@ -125,8 +130,8 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={true}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgToprtaFritas}
                         descripcion={'Tortas fritas clásicas de playa con variedades de relleno.'}
                         titulo={'Tortas Fritas'}
@@ -134,8 +139,8 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgRaspaditas}
                         descripcion={'Tortas clásicas de la zona cuyana argentina.'}
                         titulo={'Tortitas Raspaditas'}
@@ -143,8 +148,8 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgMedialuna}
                         descripcion={'Medialunas de manteca, dulces.'}
                         titulo={'Medialunas'}
@@ -152,12 +157,40 @@ const Carta = () => {
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
-                        medPrice={'7.000,00'}
-                        docPrice={'14.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
                         imagen={imgBollitos}
                         descripcion={'Bollitos de manteca, rellenos de dulce de leche con azúcar impalpable.'}
                         titulo={'Bombitas con dulce de leche.'}
                     />
+                    <CardProductoDoc
+                        tieneRelleno={false}
+                        uniPrice={'2.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
+                        imagen={null}
+                        descripcion={'Masa berlinesa rellena y espolvoreada con azúcar.'}
+                        titulo={'Bolitas de Fraile'}
+                    />
+                    <CardProductoDoc
+                        tieneRelleno={false}
+                        uniPrice={'2.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
+                        imagen={null}
+                        descripcion={'Cañoncitos de manteca, rellenos de dulce de leche con azúcar impalpable.'}
+                        titulo={'Cañoncitos'}
+                    />
+                    <CardProductoDoc
+                        tieneRelleno={false}
+                        uniPrice={'2.000,00'}
+                        medPrice={'8.000,00'}
+                        docPrice={'16.000,00'}
+                        imagen={null}
+                        descripcion={'Facturas dulces con azucar blanca gratinada.'}
+                        titulo={'Caritas Blancas'}
+                    />
+                    
                 </SubSeccion>
             </Seccion>
             <Seccion tituloSeccion={'Cafetería'}
@@ -214,6 +247,16 @@ const Carta = () => {
 
                         <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
                     </CardProductoUn>
+                    <CardProductoUn
+
+
+                        imagen={imgMocaccino}
+                        descripcion={'Leche caliente con café, crema y chocolate.'}
+                        titulo={'Mocaccino'}
+                    >
+
+                        <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
+                    </CardProductoUn>
 
                     <CardProductoUn
 
@@ -228,6 +271,15 @@ const Carta = () => {
                 </SubSeccion>
 
                 <SubSeccion tituloSubSeccion={'Fríos'}>
+                    <CardProductoUn
+                        price={'1.000,00'}
+                        tipoVenta={'as'}
+                        imagen={imgCafeConLeche}
+                        descripcion={'Café con leche frío'}
+                        titulo={'Café con leche frío.'}
+                    >
+                        <p className="text-sm mr-1"><span className="font-bold">$ 5.000,00</span></p>
+                    </CardProductoUn>
                     <CardProductoUn
                         price={'4.000,00'}
                         tipoVenta={'as'}
