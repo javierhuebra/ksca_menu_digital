@@ -1,14 +1,15 @@
-
+import { FaStar } from "react-icons/fa";
 
 const CardProductoDoc = ({
-    tieneRelleno,
     uniPrice,
     docPrice,
     medPrice,
     imagen,
     descripcion,
-    titulo }) => {
-       
+    titulo,
+    esNuevo
+}) => {
+
     return (
         <div className="border-[3px] border-accent bg-primary  rounded-lg flex flex-col p-1 mb-1">
             <div className="flex h-32">
@@ -37,10 +38,23 @@ const CardProductoDoc = ({
                     }
 
                 </div> */}
-                <div className="bg-accent text-right pl-1 text-white w-full">
-                    <p className="text-sm mr-1">Unidad: <span className="font-bold">$ {uniPrice}</span></p>
-                    <p className="text-sm mr-1">1/2 Docena: <span className="font-bold">$ {medPrice}</span></p>
-                    <p className="text-sm mr-1">1 Docena: <span className="font-bold">$ {docPrice}</span></p>
+                <div className="bg-accent flex justify-between pl-1 text-white w-full">
+                    {
+                        esNuevo && <>
+                            <div className="flex items-center justify-start">
+                                <FaStar className="text-yellow-400 mr-1" />
+                                <p className="text-l px-1 mr-1 mt-1 font-bold bg-yellow-400  text-red-600">NUEVO!</p>
+                            </div>
+                        </>
+                    }
+
+                    <div className="text-right flex-1">
+                        <p className="text-sm mr-1">Unidad: <span className="font-bold">$ {uniPrice}</span></p>
+                        <p className="text-sm mr-1">1/2 Docena: <span className="font-bold">$ {medPrice}</span></p>
+                        <p className="text-sm mr-1">1 Docena: <span className="font-bold">$ {docPrice}</span></p>
+                    </div>
+
+
                 </div>
 
             </div>

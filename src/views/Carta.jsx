@@ -15,13 +15,13 @@ import imgCafeConLeche from '../assets/cafeconleche.png'
 import imgCafe from '../assets/cafe.png'
 import imgChocolate from '../assets/chocolatecaliente.png'
 import jugoNaranja from '../assets/jugoNaranja.png'
-import { FaGrinStars } from "react-icons/fa";
+import { FaGrinStars, FaStar } from "react-icons/fa";
 import imgPromo1 from '../assets/promo1.png'
 import { MdTouchApp } from "react-icons/md";
 import imgSubmarino from '../assets/submarino.png'
 import imgCappuccino from '../assets/capuccino.png'
 import imgPromo2 from '../assets/promo2.png'
-import imgChocolatada from '../assets/chocolatada.png'
+import imgBolitas from '../assets/bolitas.png'
 import imgMedialuna from '../assets/medialuna.png'
 import imgExprimidos from '../assets/exprimidos.png'
 import imgLicuados from '../assets/licuados.png'
@@ -29,6 +29,9 @@ import imgEnsaladaFrutas from '../assets/frutas.png'
 import imgInfusiones from '../assets/infusion.png'
 import imgBollitos from '../assets/bollitos.png'
 import imgMocaccino from '../assets/mocaccino.png'
+import imgCanioncito from '../assets/canioncito.png'
+import imgCaritasBlancas from '../assets/caritas.png'
+import imgCafeFrio from '../assets/cafefrio.png'
 const Carta = () => {
     return (
         <div className="bg-white flex-1">
@@ -162,35 +165,39 @@ const Carta = () => {
                         imagen={imgBollitos}
                         descripcion={'Bollitos de manteca, rellenos de dulce de leche con azúcar impalpable.'}
                         titulo={'Bombitas con dulce de leche.'}
+                        esNuevo={true}
                     />
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
                         medPrice={'8.000,00'}
                         docPrice={'16.000,00'}
-                        imagen={null}
+                        imagen={imgBolitas}
                         descripcion={'Masa berlinesa rellena y espolvoreada con azúcar.'}
                         titulo={'Bolitas de Fraile'}
+                        esNuevo={true}
                     />
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
                         medPrice={'8.000,00'}
                         docPrice={'16.000,00'}
-                        imagen={null}
+                        imagen={imgCanioncito}
                         descripcion={'Cañoncitos de manteca, rellenos de dulce de leche con azúcar impalpable.'}
                         titulo={'Cañoncitos'}
+                        esNuevo={true}
                     />
                     <CardProductoDoc
                         tieneRelleno={false}
                         uniPrice={'2.000,00'}
                         medPrice={'8.000,00'}
                         docPrice={'16.000,00'}
-                        imagen={null}
+                        imagen={imgCaritasBlancas}
                         descripcion={'Facturas dulces con azucar blanca gratinada.'}
                         titulo={'Caritas Blancas'}
+                        esNuevo={true}
                     />
-                    
+
                 </SubSeccion>
             </Seccion>
             <Seccion tituloSeccion={'Cafetería'}
@@ -254,8 +261,14 @@ const Carta = () => {
                         descripcion={'Leche caliente con café, crema y chocolate.'}
                         titulo={'Mocaccino'}
                     >
-
-                        <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
+                        <div className="flex justify-between p-1">
+                            <div className="flex items-center justify-start">
+                                <FaStar className="text-yellow-400 mr-1" />
+                                <p className="text-l px-1 mr-1  font-bold bg-yellow-400  text-red-600">NUEVO!</p>
+                            </div>
+                            <p className="text-sm mr-1"><span className="font-bold">$ 6.000,00</span></p>
+                        </div>
+                        
                     </CardProductoUn>
 
                     <CardProductoUn
@@ -274,11 +287,17 @@ const Carta = () => {
                     <CardProductoUn
                         price={'1.000,00'}
                         tipoVenta={'as'}
-                        imagen={imgCafeConLeche}
+                        imagen={imgCafeFrio}
                         descripcion={'Café con leche frío'}
                         titulo={'Café con leche frío.'}
                     >
-                        <p className="text-sm mr-1"><span className="font-bold">$ 5.000,00</span></p>
+                        <div className="flex justify-between p-1">
+                            <div className="flex items-center justify-start">
+                                <FaStar className="text-yellow-400 mr-1" />
+                                <p className="text-l px-1 mr-1  font-bold bg-yellow-400  text-red-600">NUEVO!</p>
+                            </div>
+                            <p className="text-sm mr-1"><span className="font-bold">$ 5.000,00</span></p>
+                        </div>
                     </CardProductoUn>
                     <CardProductoUn
                         price={'4.000,00'}
@@ -317,7 +336,7 @@ const Carta = () => {
                     >
                         <p className="text-sm mr-1"><span className="font-bold">$ -</span></p>
                     </CardProductoUn>
-                    
+
 
                 </SubSeccion>
             </Seccion>
